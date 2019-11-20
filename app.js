@@ -36,7 +36,7 @@ app.get('/', function(req, res){
 });
 
 
-app.listen(80);
+app.listen(443);
 
-console.log("Server running on port 80");
+console.log("Server running on port 443");
 module.exports = app; // Export app instance
